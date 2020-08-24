@@ -16,15 +16,6 @@ module.exports = {
         @import "@/assets/style/mixin.scss";
         `
       }
-      // postcss: {
-      //   plugins: [
-      //     require('postcss-pxtorem')({
-      //       rootValue: 37.5, // 换算的基数
-      //       selectorBlackList: ['.px-'], // 过滤掉.px-开头的class，不进行rem转换
-      //       propList: ['*']
-      //     })
-      //   ]
-      // }
     }
   },
   // 配置 webpack-dev-server 行为
