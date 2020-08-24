@@ -1,34 +1,12 @@
 <template>
   <div class="home">
-    <div class="stack-wrapper">
-      <card-slide ref="stack" :pages="list"></card-slide>
-    </div>
+    this is home page
   </div>
 </template>
 
 <script>
-import CardSlide from '@/components/CardSlide'
-
 export default {
-  name: 'Home',
-  data() {
-    return {
-      list: []
-    }
-  },
-  mounted() {
-    console.log('123')
-    setTimeout(() => {
-      this.list = [
-        'http://images.12yrmh.com/comic/20200610162208c84fe.jpeg',
-        'http://images.12yrmh.com/comic/20200611100343c7715.jpeg',
-        'http://images.12yrmh.com/comic/202006151017346c78d.jpeg'
-      ]
-    }, 1000)
-  },
-  components: {
-    CardSlide
-  }
+  name: 'Home'
 }
 </script>
 <style lang="scss">
