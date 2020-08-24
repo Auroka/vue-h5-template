@@ -6,7 +6,7 @@ import './permission' // permission control
 
 import 'normalize.css/normalize.css' // A modern alternative to CSS resets
 import '@/assets/style/index.scss' // 一些公用样式
-import 'lib-flexible/flexible.js' //移动端适配 配合px2rem-loader使用
+// import 'lib-flexible/flexible.js' //移动端适配 配合px2rem-loader使用
 import './vant'
 
 import vConsole from 'vconsole'

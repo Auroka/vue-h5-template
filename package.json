@@ -35,6 +35,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^6.1.2",
     "mockjs": "^1.1.0",
+    "postcss-px-to-viewport": "^1.1.1",
     "postcss-pxtorem": "^4.0.1",
     "prettier": "^1.19.1",
     "sass": "^1.25.0",
